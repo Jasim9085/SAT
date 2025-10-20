@@ -1,0 +1,1 @@
+import{r as t}from"./index-Qv1PFdT_.js";function i(){const[r,e]=t.useState(!1),a=t.useCallback(o=>{o&&navigator.clipboard.writeText(o).then(()=>{e(!0),setTimeout(()=>e(!1),2e3)}).catch(s=>{console.error("Failed to copy text: ",s)})},[]);return[r,a]}export{i as u};
