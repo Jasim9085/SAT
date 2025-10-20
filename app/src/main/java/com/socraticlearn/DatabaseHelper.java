@@ -7,7 +7,7 @@ import android.widget.Toast;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     private final Context context;
-    private static final String DATABASE_NAME = "SocraticTutor.db";
+    public static final String DATABASE_NAME = "SocraticTutor.db";
     private static final int DATABASE_VERSION = 1;
 
     public static final String TABLE_SESSIONS = "sessions";
