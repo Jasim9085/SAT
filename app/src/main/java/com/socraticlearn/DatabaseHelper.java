@@ -1,3 +1,5 @@
+package com.socraticlearn;
+
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -7,6 +9,7 @@ import android.widget.Toast;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     private final Context context;
+    // FIX: This is now public
     public static final String DATABASE_NAME = "SocraticTutor.db";
     private static final int DATABASE_VERSION = 1;
 
