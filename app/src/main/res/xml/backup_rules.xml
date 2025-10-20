@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+    This rule tells the Android Backup Service to include the entire 'database'
+    directory in the cloud backup. This is where your SocraticTutor.db file is stored.
+    We are explicitly including it to ensure your session and settings data is saved.
+    -->
+    <include domain="database" path="." />
+
+</full-backup-content>
